@@ -10,6 +10,16 @@
 
 使用 Node.js 22.18 或更新版本。按赛事格式提供输入目录，通过 `MAKEFUN_INPUT_DIR` 和 `MAKEFUN_OUTPUT_DIR` 配置目录后运行 `node main.ts`。
 
+PowerShell 示例
+
+```powershell
+$env:MAKEFUN_INPUT_DIR = "examples"
+$env:MAKEFUN_OUTPUT_DIR = "out"
+node main.ts
+```
+
+示例结果写入 `out/demo.out`。
+
 ## English
 
 Forecasts future trophy unlock rates at several quantiles using time-stamped observations.
@@ -17,6 +27,8 @@ Forecasts future trophy unlock rates at several quantiles using time-stamped obs
 ### Run locally
 
 Use Node.js 22.18 or newer. Provide challenge-format input files through `MAKEFUN_INPUT_DIR`, set `MAKEFUN_OUTPUT_DIR`, and run `node main.ts`.
+
+Try the included example on macOS or Linux with `MAKEFUN_INPUT_DIR=examples MAKEFUN_OUTPUT_DIR=out node main.ts`. The output is `out/demo.out`. For PowerShell, see the example above.
 
 [make.fun 赛事 / Original bounty](https://make.fun/bounty/gta6-trophy-rarity-forecast-01)
 

@@ -1,0 +1,55 @@
+{
+  "at": "2025-01-01T12:00:00Z",
+  "target": "2025-01-01T18:00:00Z",
+  "horizon_minutes": 360,
+  "levels": [
+    0.05,
+    0.25,
+    0.5,
+    0.75,
+    0.95
+  ],
+  "game": {
+    "release_date": "2025-01-01T00:00:00Z"
+  },
+  "trophies": [
+    {
+      "id": 1,
+      "description": "Find a hidden beacon.",
+      "tier": "bronze",
+      "secret": false
+    },
+    {
+      "id": 2,
+      "description": "Complete chapter three.",
+      "tier": "silver",
+      "secret": false
+    }
+  ],
+  "history": [
+    {
+      "at": "2025-01-01T04:00:00Z",
+      "players_tracked": 1000,
+      "rates": [
+        15,
+        4
+      ]
+    },
+    {
+      "at": "2025-01-01T08:00:00Z",
+      "players_tracked": 1300,
+      "rates": [
+        19,
+        7
+      ]
+    },
+    {
+      "at": "2025-01-01T12:00:00Z",
+      "players_tracked": 1400,
+      "rates": [
+        22,
+        10
+      ]
+    }
+  ]
+}
