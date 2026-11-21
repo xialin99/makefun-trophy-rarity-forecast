@@ -1,4 +1,4 @@
-# Trophy Rarity Forecast
+# 奖杯解锁率预测 / Trophy Rarity Forecast
 
 [中文](#中文) · [English](#english)
 
